@@ -1,0 +1,20 @@
+{
+  "id": "/Nexus-cloud/",
+  "name": "NEXUS CLOUD",
+  "short_name": "NEXUS",
+  "description": "NEXUS CLOUD Gaming Platform",
+  "start_url": "/Nexus-cloud/",
+  "scope": "/Nexus-cloud/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080817",
+  "theme_color": "#17102e",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
