@@ -52,4 +52,17 @@ document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{
 search.addEventListener('input',update);
 function details(name,platform){alert(name+'\\nPlatform: '+platform+'\\n\\nBu prototipte oyun inceleme ekranı örneğidir. Gerçek bulut bağlantısı henüz eklenmedi.');}
 </script>
+  <script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js", {
+      scope: "./"
+    }).then(() => {
+      console.log("NEXUS CLOUD Service Worker aktif!");
+    }).catch((error) => {
+      console.error("Service Worker hatası:", error);
+    });
+  });
+}
+  </script>
 </body></html>
